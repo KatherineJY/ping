@@ -1,0 +1,109 @@
+body{
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    font-family: Microsoft YaHei;
+}
+/*----------------------------------------*/
+.nav{
+    width: 100vw;
+    height: 4rem;
+    padding:0 10px 0 10px;
+    box-sizing: border-box;
+    border-bottom:1px solid rgba(0,0,0,0.4);
+    display: flex;
+    line-height: 4rem;
+    color: #000;
+    position: absolute;
+    top:0;
+    z-index: 1;
+}
+.back-href{
+    flex:20%;
+    font-size: 2rem;
+}
+.title{
+    flex:60;
+    font-size: 2rem;
+    text-align: center;
+}
+.sign-href{
+    flex:20%;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.sign-href a{
+    color:inherit;
+    text-decoration: none;
+}
+/*-----------------------------------------*/
+.content-holder{
+    width: 100vw;
+    height: 100vh;
+    border-top: 4rem solid transparent;
+    box-sizing: border-box;
+    position: relative;  
+}
+/*----------------------------------------------------*/
+.info-holder{
+    width: 100%;
+    height: 100%;
+    overflow-y:scroll;
+}
+.info-holder::-webkit-scrollbar{
+    width: 0.4rem;
+}
+.info-holder::-webkit-scrollbar-thumb{
+    background: #eee;
+    border-radius: 20%;
+    height: 4rem;
+}
+.info-box{
+    width: 100%;
+    height: auto;
+    padding:20px 40px 10px 40px;
+    box-sizing: border-box;
+    border-bottom: 0.5px solid #eee;
+    display: flex;
+    justify-content: space-between;
+}
+.info-box img{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 3.5rem;
+}
+.info{
+    width: calc( 100% - 10rem );
+    height: auto;
+}
+.username-holder{
+    width: 100%;
+    font-size: 1.5rem;
+    height: 1.8rem;
+    line-height: 1;
+    color: #cd7036;
+    display: flex;
+    justify-content: space-between;
+}
+.username-holder span{
+    font-size:1.4rem;
+    font-weight: lighter;
+}
+.detail-info{
+    width: 100%;
+    height: auto;
+    padding:5px 10px 5px 10px;
+    background: rgba(151,115,219,0.2);
+    background: linear-gradient(to left,transparent,rgba(151,115,219,0.1));
+}
+.info-item{
+    width: auto;
+    font-size: 1.2rem;
+    height: 1.8rem;
+    border-radius: 2px;
+    color:grey;
+}
+.info-item span{
+    color:#cd7036;
+}

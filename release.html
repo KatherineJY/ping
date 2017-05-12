@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Release</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/release.css">
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=kKanwZvcMcMGcXiNpUmTO7G3aDSYqTot"></script>
+</head>
+<body>
+    <div class="nav">
+        <div class="back-href"><</div>
+        <div class="title">- 发 布 拼 车 信 息 -</div>
+        <div class="sign-href"></div>
+    </div>
+    <div class="content-holder">
+        <div class="info-holder">
+            <div class="info-box">
+                <div class="info-item">
+                    <span>出发地</span>
+                    <input type="text" placeholder="请输入您的起始地点" id="suggestId1">
+                </div>
+                <div class="info-item">
+                    <span>目的地</span>
+                    <input type="text" placeholder="请输入您的目的地点" id="suggestId2">
+                </div>
+            </div>
+            <div class="info-box">
+                <div class="info-item">
+                    <span>出发时间</span>
+                    <div class="time-holder">
+                        <div class="number-box" id="year">
+                            <p>2017</p>
+                            <div class="time-choose-holder">
+                                <div class="time-choose">2017</div>
+                                <div class="time-choose">2018</div>
+                            </div>
+                        </div>
+                        <div class="number-box" id="month">
+                            <p>01</p>
+                            <div class="time-choose-holder"></div>
+                        </div>
+                        <div class="number-box" id="day">
+                            <p>06</p>
+                            <div class="time-choose-holder"></div>
+                        </div>
+                        <div class="number-box" id="hour">
+                            <p>00</p>
+                            <div class="time-choose-holder"></div>
+                        </div>
+                        <div class="number-box" id="minute">
+                            <p>00</p>
+                            <div class="time-choose-holder"></div>    
+                        </div>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <span>已有人数</span>
+                    <div class="person-holder">
+                        <div class="number-box" id="person">
+                            <p>1</p>
+                            <div class="time-choose-holder">
+                                <div class="time-choose">1</div>
+                                <div class="time-choose">2</div>
+                                <div class="time-choose">3</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <span>尚需人数</span>
+                    <div class="person-holder">
+                        <div class="number-box" id="person">
+                            <p>1</p>
+                            <div class="time-choose-holder">
+                                <div class="time-choose">1</div>
+                                <div class="time-choose">2</div>
+                                <div class="time-choose">3</div>
+                                <div class="time-choose">4</div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <div class="info-box">  
+                <div class="info-item">
+                    <span>联系方式</span>
+                    <div class="contact-holder">
+                        <div class="number-box">
+                            <p>QQ</p>
+                            <div class="time-choose-holder">
+                                <div class="time-choose">QQ</div>
+                                <div class="time-choose">电话</div>
+                                <div class="time-choose">微信</div>
+                                <div class="time-choose">邮箱</div>
+                                <div class="time-choose">微博</div>
+                            </div>
+                        </div>
+                        <input type="text" placeholder="请输入您的联系方式">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="l-map"></div>
+        <a href="user.html" class="search-holder">发 布</a>
+    </div>
+    <div class="foot-nav">
+        <a href="search.html" class="foot-item">搜 索</a>
+        <a href="" class="foot-item item-onshow">发 布</a>
+        <a href="message-list.html" class="foot-item">消 息</a>
+        <a href="user.html" class="foot-item">我 的</a>
+    </div>
+
+    <script type="text/javascript" src="js/release.js"></script>
+</body>
+</html>

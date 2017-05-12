@@ -1,0 +1,105 @@
+body{
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+}
+a{
+    color: inherit;
+    text-align: none;
+}
+/*--------------------------------------*/
+.foot-nav{
+    width: 100vw;
+    height:6rem;
+    line-height: 6rem;
+    position: absolute;
+    bottom:0;
+    border-top:1px solid rgba(0,0,0,0.4);
+    font-size: 1.8rem;
+    display: flex;
+}
+.foot-item{
+    width: 25%;
+    text-align: center;
+    color:grey;
+    text-decoration: none;
+}
+.item-onshow{
+    color:#cd7036;
+}
+/*-----------------------------------------*/
+.content-holder{
+    width: 100vw;
+    height: 100vh;
+    border-bottom: 6rem solid transparent;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.holder{
+    width: 100%;
+    height: auto;
+}
+.user-info{
+    width: 100%;
+    height:16rem;
+    padding: 3rem 50px 3rem 50px;
+    box-sizing:border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.basic-info{
+    padding-top:2.25rem;
+    height: 10rem;
+    text-align: center;
+}
+.id-name{
+    font-size:2rem;
+}
+.active{
+    font-size: 1.5rem;
+}
+.icon-holder{
+    display: flex;
+    align-items: center;
+}
+.icon-holder img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 5rem;
+    margin-right: 15px;
+}
+.icon-holder{
+    font-size: 3rem;
+}
+/*------------------------------------*/
+.info-box{
+    width: 100%;
+    height: 18rem;
+    padding:0 30px 0 30px;
+    box-sizing: border-box;
+}
+.info-item{
+    width: 100%;
+    height: 6rem;
+    color: grey;
+    font-size:2rem;
+    line-height: 6rem;
+    display: block;
+    border-bottom: 0.2px solid rgba(0,0,0,0.4);
+}
+.info-item:nth-child(3){
+    border-bottom:0px solid rgba(0,0,0,0.4);
+}
+.logout-holder{
+    width: 100%;
+    height: 5rem;
+    background: #cd7036;
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 5rem;
+    color: #eee;
+}
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="loading">
+		<div class="logo-place loading-logo"></div>
+		<div class="loading-circle">
+			<div class="rotate-line">
+				<div class="rotate-line">
+					<div class="rotate-line">
+						<div class="rotate-line">
+							<div class="rotate-line">
+								<div class="rotate-line">
+									<div class="rotate-line">
+										<div class="rotate-line">
+											<div class="rotate-line">
+												<div class="rotate-line">
+													<div class="logo-place"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    
+    <div class="nav">
+        <div class="back-href"> </div>
+        <div class="title">登 陆</div>
+        <div class="sign-href"><a href="register.html">注 册</a></div>
+    </div>
+
+    <div class="content-holder">
+        <div class="info-box">
+            <div class="info-item">
+                <div class="info-title">昵 称</div>
+                <input type="text" name="UserName">
+            </div>
+            <div class="info-item">
+                <div class="info-title">密 码</div>
+                <input type="password" name="Password">
+            </div>
+        </div>
+        <div class="btn-holder">
+            <a href="user.html" class="register-holder">登 陆</a>
+            <a href="" class="forget-holder">忘记密码 </a>
+        </div>
+    </div>
+    
+    <script>
+    function closeloading(){
+	    var loading = document.querySelector('.loading');
+	    loading.style.opacity = 0.2;
+        loading.style.top = '-100vh';
+ 	    //loading.style.zIndex = -1;
+    }
+    setTimeout(closeloading,1000);
+    </script>
+</body>
+</html>
